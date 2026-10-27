@@ -1,0 +1,4 @@
+interface:
+  display_name: "双臂 Franka 正向工作空间"
+  short_description: "输入 USD 与桌面高度范围，生成双臂正向位姿 CSV 并可视化"
+  default_prompt: "使用 $dual-franka-fk-workspace，读取我提供的 USD，计算指定桌面高度范围内的双臂正向工作空间，输出 CSV 并打开 Isaac Sim 可视化。"
